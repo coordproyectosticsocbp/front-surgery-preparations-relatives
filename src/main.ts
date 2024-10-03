@@ -4,7 +4,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 //import './style.css'
-const App = () => import('@/App.vue')
+const App = '@/App.vue'
 import router from "./router";
 
 const app = createApp(App)
