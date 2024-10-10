@@ -1,5 +1,6 @@
-const GuestView = () => import("@/views/guest/GuestView.vue")
-const NotFoundPage = () => import("@/views/notFound/NotFoundPage.vue")
+import GuestView from "../../views/guest/GuestView.vue";
+import NotFoundPage from "../../views/notFound/NotFoundPage.vue";
+
 export const routesObject = [
     {
         path: '/',
